@@ -1,0 +1,153 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.docha {
+    background-color: gray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+.back-img {
+    background-image: url("https://oir.mobi/uploads/posts/2021-03/1616535540_59-p-fon-dlya-prezentatsii-po-muzike-61.jpg");
+    width: 1200px;
+    height: 600px;
+    filter: brightness(40%);
+    height: 100vh;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.square {
+    border-radius: 50%;
+    margin-top: 200px;
+    margin-left: 500px;
+    box-shadow: 10px 10px 15px 5px rgb(83, 82, 82);
+}
+
+.strelka {
+    width: 50px;
+    position: absolute;
+    bottom: 40px;
+    left: calc(50% - 25px);
+    opacity: 100;
+    animation: arrowDOWN 2s infinite;
+}
+
+@keyframes arrowDOWN {
+    0% {
+        bottom: 30px;
+    }
+    50% {
+        bottom: 0;
+    }
+    100% {
+        bottom: 30px;
+    }
+}
+
+.shadow {
+    background-color: gray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: white;
+}
+
+.a4 {
+    background-color: rgb(86, 146, 168);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+header img {
+    width: 100px;
+}
+
+header {
+    background-color: rgb(129, 63, 63);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 60px;
+    right: 800px;
+}
+
+
+link a {
+    text-decoration:none;
+    display: inline-block;
+    line-height: 1;
+    color:#2F73B6;
+}
+
+link a:after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: #225384;
+    transition: width 0.4s ease-in-out;
+}
+
+.link a:hover:after,
+.link a:focus:after {
+    width: 100%;
+}
+
+.link a:hover{
+    color:gold;
+}
+
+a {
+    text-decoration:none;
+    display: inline-block;
+    line-height: 1;
+    color:gold;
+}
+
+a:after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: gold;
+    transition: width 0.4s ease-in-out;
+}
+
+a:hover:after,
+a:focus:after {
+    width: 100%;
+}
+
+a:hover{
+color:gold;
+}
+
+footer {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer p {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
