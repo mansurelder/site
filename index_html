@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>сайт так сказать</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="https://cdn-icons-png.flaticon.com/512/849/849502.png">
+            <div class="link">
+            <a href="#main">песни</a>
+            </div>
+        </header>
+        <main>
+        <div class="back-img">
+            <img class="square" src="https://cspromogame.ru//storage/upload_images/avatars/1299.jpg">
+            <div class="strela">
+            <a href="#main"><img class="strelka" src="https://open.spbstu.ru/wp-content/uploads/2019/01/arrow_down_white.png"></a>
+            </div>
+        </div>
+        <div id="main" class="docha">
+            <h2>Доча</h2>
+        <iframe frameborder="0" style="border:none;width:100%;height:180px;" width="100%" height="180" src="https://music.yandex.ru/iframe/#track/109336431/24204514">Слушайте <a href="https://music.yandex.ru/album/24204514/track/109336431">Доча</a> — <a href="https://music.yandex.ru/artist/3719594">Jah Khalib</a> на Яндекс Музыке</iframe>
+        </div>
+        <div class="shadow">
+            <h2>psiblades</h2>
+        <iframe frameborder="0" style="border:none;width:100%;height:180px;" width="100%" height="180" src="https://music.yandex.ru/iframe/#track/92075105/18409279">Слушайте <a href="https://music.yandex.ru/album/18409279/track/92075105">psiblades</a> — <a href="https://music.yandex.ru/artist/11067300">shadowraze</a> на Яндекс Музыке</iframe>
+        </div>
+        <div class="a4">
+            <h2>Kids Phonk</h2>
+        <iframe frameborder="0" style="border:none;width:100%;height:180px;" width="100%" height="180" src="https://music.yandex.ru/iframe/#track/86404182/16596713">Слушайте <a href="https://music.yandex.ru/album/16596713/track/86404182">Kids Phonk</a> — <a href="https://music.yandex.ru/artist/9141330">MC Orsen</a> на Яндекс Музыке</iframe>
+        </div>
+        </main>
+        <footer>
+            <p>cделал я этот сайт научившись на</p>
+            <p><a href="https://algoritmika.org/ru">Алгоритмике</a></p>
+        </footer>
+    </body>
+</html>
